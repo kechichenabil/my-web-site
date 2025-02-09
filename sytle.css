@@ -1,0 +1,546 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+
+.content2 {
+  margin-top: 10%;
+}
+
+.contaienr2 img {
+  margin-left: 25%;
+  margin-top: 10%;
+  max-width: 600px;
+  padding-bottom: 3%;
+}
+
+.container .logo {
+  font-size: 2em;
+  font-weight: 700;
+  color: #274169;
+}
+
+.container nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-weight: 500;
+  color: #274169;
+  position: relative;
+}
+
+.container nav a::after {
+  content: "";
+  position: relative;
+  border: 1px solid #274169;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  bottom: -6px;
+  border-radius: 3px;
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+.container nav a:hover::after {
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.contaienr2 {
+  width: 1500px;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.content2 .text1 {
+  margin-bottom: 20px;
+  font-size: 1.7em;
+  font-weight: 700;
+  color: #57c55c;
+}
+
+.content2 .user {
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  font-weight: 900;
+  color: #274169;
+  text-shadow: 4px 4px 4px #00000033;
+}
+
+.content2 .text2 {
+  margin-bottom: 20px;
+  font-size: 1.7em;
+  font-weight: 700;
+  color: #274169;
+}
+
+.content2 .icon {
+  font-size: 2.3em;
+  margin-bottom: 20px;
+}
+
+.content2 .icon a {
+  margin-right: 15px;
+  color: #5a5252;
+  transition: 0.5s;
+}
+
+.content2 .icon a:hover {
+  transition: 0.5s;
+  color: #375583;
+}
+
+.content2 .submit {
+  border: none;
+  outline: none;
+  background: #57c55c;
+  border: 2px solid #57c55c;
+  padding: 15px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 700;
+  transition: 0.5s;
+  text-decoration: none;
+  text-align: center;
+}
+
+.content2 .submit:hover {
+  box-shadow: 5px 5px 5px #89e78e;
+  transition: 0.5s;
+}
+
+/*page 2*/
+
+.section2 {
+  background-color: white;
+}
+
+.contaienr3 {
+  text-align: center;
+  padding: 4rem;
+}
+
+.contaienr3 .hr {
+  width: 100px;
+  margin: 5px auto 0px;
+  height: 5px;
+  border: none;
+  border-radius: 2px;
+  background-color: #89e78e;
+}
+
+.section2 {
+  padding: 10px 110px;
+}
+
+.content3 {
+  text-align: center;
+  padding: 4rem;
+}
+
+.content3 h1 {
+  font-size: 36px;
+  color: #375583;
+}
+
+.content3 hr {
+  max-width: 100px;
+  margin: 5px auto 0;
+  height: 5px;
+  background-color: #57c55c;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.me span {
+  color: #5a5252;
+  font-size: 1.4em;
+}
+
+.me hr {
+  margin-bottom: 20px;
+  background-color: #5a5252;
+}
+
+.nabil {
+  font-size: 2.3em;
+  padding-bottom: 15px;
+}
+
+.nabil span {
+  padding-bottom: 5px;
+  color: #57c55c;
+  font-size: 1em;
+}
+
+.nabil h1 {
+  color: #375583;
+}
+
+.sira p {
+  max-width: 750px;
+  margin-right: 220px;
+  font-size: 1.4em;
+  color: #5a5252;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.sira {
+  display: flex;
+  align-items: center;
+}
+
+.tot {
+  display: flex;
+}
+
+/*section2 end*/
+
+.section4 {
+  background-color: #274169;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contaienr4 {
+  background-color: #1b2c4db6;
+  border-radius: 50px;
+}
+
+.item {
+  margin: 30px;
+}
+
+.item p {
+  max-width: 300px;
+  min-width: 100px;
+  align-items: center;
+  color: #ffffff;
+  position: relative;
+  left: 18px;
+  text-align: center;
+}
+
+.content4 .tot .item {
+  background-color: #cfd0d4;
+  border-radius: 20px;
+  transition: 0.5s;
+  width: 100px;
+  height: 120px;
+  background: #c6c6c657;
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  border-bottom: 3px solid #ffffff70;
+  border-left: 2px  #ffffff8b outset;
+  box-shadow: -40px 50px 30px #00000047;
+  transform: skewX(10deg);
+  transition: .4s;
+  overflow: hidden;
+  color: rgb(255, 255, 255);
+}
+
+.content4 .tot .item img {
+  width: 320px;
+  height: 170px;
+}
+
+.content4 .tot .item:hover {
+  transition: 0.5s;
+  box-shadow: 10px 10px 40px #000000;
+  height: 210px;
+  transform: skew(0deg);
+}
+
+.content4 .tot img,
+.code {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.content4 .tot .code {
+  text-align: center;
+  padding-bottom: 5px;
+  color: #ffffff;
+  text-decoration: underline 3px;
+}
+
+.contaienr4 .skills {
+  position: relative;
+  bottom: 110px;
+  right: 60px;
+  color: white;
+  max-width: 100px;
+  margin: 5px auto 0;
+  height: 5px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 2em;
+}
+
+.contaienr4 .skills span {
+  color: #57c55c;
+}
+
+.contaienr4 .hr {
+  position: relative;
+  bottom: 80px;
+  max-width: 100px;
+  margin: 5px auto 0;
+  height: 5px;
+  background-color: #57c55c;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+/*ibad*/
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 5px 5px;
+  }
+  .container nav a {
+    margin-left: 10px;
+    font-size: 17px;
+  }
+  .container .logo {
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  .contaienr2 {
+    width: 650px;
+  }
+  .content2 .user {
+    font-size: 1.4em;
+  }
+  .content2 .icon {
+    font-size: 1.5em;
+  }
+  .content2 .submit {
+    font-size: 12px;
+    padding: 9px 0px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .contaienr2 img {
+    max-width: 260px;
+    margin-left: 4%;
+    margin-top: 7%;
+  }
+  .section2 {
+    padding: 5px 20px;
+  }
+  .content3 {
+    padding: 2.5rem;
+  }
+  .content3 h1 {
+    font-size: 27px;
+  }
+  .me span {
+    font-size: 18px;
+  }
+  .nabil {
+    font-size: 1.5em;
+    padding-bottom: 4px;
+    letter-spacing: 0.4px;
+  }
+  .sira p {
+    font-size: 16px;
+    word-spacing: 0.5px;
+    margin-right: 60px;
+  }
+  .item {
+    margin: 18px;
+  }
+  .content4 .tot .code {
+    padding-bottom: 3px;
+    text-decoration: underline 2.3px;
+  }
+  .contaienr4 .skills {
+    bottom: 120px;
+    font-size: 1.5em;
+    right: 38px;
+  }
+  .contaienr4 .hr {
+    bottom: 95px;
+  }
+  .item img {
+    width: 140px;
+    height: 90px;
+  }
+  .item p {
+    font-size: 13px;
+    max-width: 115px;
+    font-weight: 500;
+  }
+}
+
+/*phone*/
+
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+  .container {
+    padding: 5px 5px 5px 5px;
+  }
+  .container .logo {
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .container nav a {
+    margin-left: 2px;
+    font-size: 12px;
+  }
+  .contaienr2 {
+    width: 100%;
+  }
+
+  .content2 .text1 {
+    font-size: 15px;
+  }
+  .content2 .user {
+    font-size: 18px;
+  }
+  .content2 .text2 {
+    font-size: 14px;
+  }
+  .content2 .icon {
+    font-size: 1.4em;
+  }
+  .content2 .icon a {
+    margin-right: 7px;
+  }
+  .content2 .submit{
+    font-size: 15px;
+    padding: 8px 11px;
+  }
+  .contaienr2 img {
+    max-width: 220px;
+    margin: 0;
+    padding: auto;
+    margin-top: 9%;
+  }
+  .section2 {
+    padding: 10px 5px;
+  
+  }
+  .content3 {
+    padding-top: 3rem;
+  }
+  .content3 h1 {
+    font-size: 22px;
+  }
+  .me span {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+
+  }
+  .me hr {
+    max-width: 240px;
+    margin-top: 10px;
+    position: relative;
+    left: 60px;
+  }
+
+  .nabil {
+    font-size: 1em;
+    padding-bottom: 10px;
+    letter-spacing: 0.5px;
+  }
+  .sira {
+    display: block;
+  }
+  .sira p {
+    font-size: 13px;
+    word-spacing: 0.5px;
+    margin-right: 10px;
+    position: relative;
+    padding-bottom: 60px;
+  }
+  .item {
+    margin: 6px;
+  }
+  .item p{
+    left: 0px;
+  }
+  .content4 .tot .item img {
+    width: 108px;
+    height: 90px;
+  }
+  .content4 .tot .code {
+    padding-bottom: 9px;
+    text-decoration: underline 2.3px;
+    font-size: 14px;
+  }
+  .contaienr4 .skills {
+    bottom: 70px;
+    font-size: 1.3em;
+    right: 34px;
+  }
+  .contaienr4 .hr {
+    bottom: 45px;
+  }
+
+  .item p {
+    font-size: 9px;
+    max-width: 95px;
+    font-weight: 500;
+  }
+  .item .code {
+    font-size: 16px;
+  }
+  .contaienr4 {
+    background-color: #1b2c4db6;
+    border-radius: 30px;
+    position: relative;
+    bottom: 60px;
+  }
+}
